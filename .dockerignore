@@ -1,0 +1,24 @@
+# Exclude node modules
+node_modules
+
+# Exclude logs
+*.log
+
+# Exclude any local environment files or secrets
+.env.local
+.env.*.local
+
+# Exclude build artifacts
+dist/
+build/
+
+# Exclude cache directories
+.cache/
+.npm/
+
+# Exclude git-related files
+.git/
+.gitignore
+
+Dockerfile
+
